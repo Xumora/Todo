@@ -1,0 +1,14 @@
+ body {
+    background-color: #171723;
+    background-image: url(./fon.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+  }
+  .btn:focus{
+    box-shadow: none !important;
+  }
+  .cirleButton.disabled{
+    pointer-events: none !important;
+    color: #868686;
+    border-color: #868686 !important;
+  }
